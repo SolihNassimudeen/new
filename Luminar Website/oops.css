@@ -1,0 +1,32 @@
+#content{
+    margin-top: 5%;
+    margin-left: 35%;
+    width: 30%;
+    height: 500px;
+
+}
+#footer{
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.footer-links{
+    text-decoration:none;
+    color: grey;
+    padding: 10px;
+    font-size: small;
+    font-weight: 500;
+}
+.footer-developed{
+    margin: 0%;
+    text-decoration:none;
+    color: grey;
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+}

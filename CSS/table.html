@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONFUSION MATRIX</title>
+    <style>
+        table,th,td{
+            border: 3px solid black;
+            border-collapse: collapse;
+            width: 300px;   
+        }
+        #table{
+            width: 100%;
+        }
+        tr{
+            height: 150px;
+        }
+        td{
+            vertical-align:middle;
+            text-align: center;
+        }
+        .widthspace{
+            width: 50px;
+        }
+        .heightspace{
+            height: 50px;
+        }
+    
+    </style>
+</head>
+<body>
+    
+    <h1 style="text-align: center;">CONFUSION MATRIX</h1>
+    <table id="table">
+        <tr class="heightspace" >
+            <th class="widthspace" style="background-color: black;"></th>
+            <th colspan="3">ACTUAL VALUE</th>
+        </tr>
+        <tr>
+            <th class="widthspace" rowspan="3" style="width:150px;">PREDICTED<br> VALUE</th>
+            <th style="background-color: black;"></th>
+            <th>POSITIVE</th>
+            <th>NEGATIVE</th>
+            
+        </tr>
+        <tr>
+            <th>POSITIVE</th>
+            <td>TRUE POSITIVE</td>
+            <td>FALSE POSITIVE</td>
+        </tr>
+        <tr>
+            <th>NEGATIVE</th>
+            <td>FALSE NEGATIVE</td>
+            <td>TRUE NEGATIVE</td>
+        </tr>
+    </table>
+</body>
+</html>

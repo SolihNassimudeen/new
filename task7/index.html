@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | App_name</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<style>
+    body{
+        margin: 0%;
+        background-image: url(/assets/img/img-2.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    *{
+        color: white;
+    }
+    #outerbox{
+        display: flex;
+        justify-content: center;
+    }
+    #loginbox{
+        width: 22%;
+        margin-top: 10%;
+        text-align: center;
+    }
+    h1{
+        text-align: center;
+        margin-bottom: 5%;
+        font-family: sans-serif;
+    }
+
+    .inp{
+        width: 80%;
+        height: 35px;
+        margin-top: 20px;
+        padding-left: 10px;
+        background: transparent;
+        border: .5px solid lightgray;
+        /* background-color: #C0C0C0; */
+        border-radius: 2px;
+    }
+    input::placeholder {
+        color: white;
+        opacity: 1;
+        font-size: small;
+        font-weight: 400;
+    }
+    #optiondiv{
+        margin-top: 10px;
+    }
+    #leftdiv{
+        float: left;
+        margin-left: 25.5px;
+    }
+    #rightdiv{
+        margin-right: -28.5%;
+    }
+    #link{
+        text-decoration: none;
+    }
+    span{
+        font-weight: 400;
+        font-size: small;
+    }
+    #logbtn{
+        margin-top: 30px;
+        width: 85%;
+        height: 40px;
+        border-radius: 100px;
+        border: none;
+        background-color: #a6a3d2;
+    }
+</style>
+<body>
+    <div id="outerbox">
+        <div id="loginbox">
+            <h1 id="heading">Login</h1>
+            <form action="">
+                <input type="text" class="inp" required placeholder="User Name">
+                <input type="password" class="inp" required placeholder="Password">
+                <div id="optiondiv">                
+                    <div id="leftdiv">
+                        <input type="checkbox" id="checkbox">
+                        <span>Remember Me</span>
+                    </div>
+                    <div id="rightdiv"><a href="" id="link"><span>Forget Me?</span></a></div>
+                </div>
+
+                <input type="submit" value="Login" id="logbtn">
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>backgroundimage</title>
+    <style>
+        h2{
+            color: aqua;
+        }
+        #heading{
+            color: blue;
+        }
+        #para1{
+            color: blueviolet;
+        }
+        #para2{
+            color: brown;
+        }
+        .size{
+            font-size: 80px;
+            opacity: 0.5;
+        }
+        .font{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p{
+            background-color: coral;
+            
+        }
+        body{
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg6fdYoa_fbwGjqWnnFluRmOOPgNpyGSq7n95vnq-S&s);
+            background-repeat: no-repeat;    /* otherwise the image will repeat */
+            background-size: 100%;
+           
+        }
+        *{
+            background-color: blanchedalmond;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="heading">Cascading Style Sheet</h1>
+    <h2>internal style</h2>
+    <p id="para1">example 1</p>
+    <p id="para2" class="size">example 2</p>    <!-- different classes and id can be combined -->
+    <p class="size font">example 3</p>          <!-- size and font are two different classes -->
+    <p class="font">example 4</p>
+    <p>example 5</p>
+    
+</body>
+</html>

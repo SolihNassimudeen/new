@@ -1,0 +1,158 @@
+.rightheaderboxsize{  
+    margin-left: 82%;
+}
+#body{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: black;
+}
+#body::-webkit-scrollbar{
+    width: 8px;
+}
+#body::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+}
+#body::-webkit-scrollbar-thumb {
+    background: blueviolet; 
+}
+#body::-webkit-scrollbar-track {
+    background: black; 
+}
+.leftcontent{
+    width: 70%;
+    height: 2950px;
+    margin-top: 37px;
+    background-color: white;
+    float: left;
+}
+h1{
+    width: 100%;
+    font-weight:600 ;
+    color: yellow;
+    background-color: rgba(0, 0, 0, .9);
+    margin: 0%;
+    text-align: center;
+    position: fixed;
+}
+.FAQs{
+    width: 80%;
+    height: auto;
+    background-color: white;
+    padding: 5px;
+    padding-left: 50px;
+}
+.FAQs:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.Qus{
+    font-size: larger;
+}
+.margin-top{
+    margin-top: 35px;
+}
+.Ans{
+    margin-left:33px ;
+    text-indent: 70px;
+    margin-right: 100px;
+    line-height: 1.5;
+    text-align: justify;
+}
+.rightcontent{
+    width: 30%;
+    height: 2950px;
+    background-color: white;
+    margin-top: 37px;
+    float: left;
+}
+#rightcontentbox{
+    width: 30%;
+    height: 30px;
+    background-color: white;
+    position: fixed;
+    right: 4%;
+    top: 23%
+}
+#searchinput{
+    width: 80%;
+    height: 35px;
+    margin-left: -20px;
+}
+#searchbtn{
+    width: 70px;
+    height:37px;
+    background-color:blueviolet ;
+    color: white;
+    border-color: white;
+}
+#contentlogo{
+    width: 82%;
+    height: 280px;
+}
+.part3{
+    font-size: 50px;
+    font-weight: 900;
+    color: rgb(112, 33, 180);
+}
+.part4{
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(112, 33, 180);
+}
+#rightcontenthead{
+    font-size: 40px;
+    font-weight: 650;
+    margin-bottom: 0%;
+    margin-left:67px;
+}
+#rightcontentsubhead1{
+    margin-top: 1%;
+    margin-left: 67px;
+    font-size: 20px;
+    font-weight: 550;
+}
+#rightcontentsubhead2{
+    margin-top: 2%;
+    margin-left: 130px;
+    font-size: 20px;
+    font-weight: 550;
+}
+.text{
+    font-size: small;
+    margin-left: 27%;
+    font-weight: 800;
+}
+.link{
+    text-decoration: none;
+    color: blue;
+}
+.link:hover{
+    color: blueviolet;
+}
+#footer{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding-top: 90px;
+    position: sticky;
+    
+
+}
+.footer-links{
+    text-decoration:none;
+    color: grey;
+    padding: 10px;
+    font-size: small;
+    font-weight: 500;
+}
+.footer-developed{
+    margin: 0%;
+    text-decoration:none;
+    color: grey;
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+}

@@ -1,0 +1,284 @@
+body{
+    overflow: visible;
+}
+#body{
+    overflow: hidden;
+}
+#body-left-slide{
+    width: 25%;
+    height: 715px;
+    overflow: scroll;
+    overflow-x: hidden;
+    float: left;
+    background-image: url(img/bgc-1.webp);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#body-left-slide::-webkit-scrollbar{
+    width: 10px;
+}
+#body-left-slide::-webkit-scrollbar-thumb {
+    border-radius: 25px;
+}
+/* #body-left-slide::-webkit-scrollbar-track {
+    background: whitesmoke; 
+    opacity: .5;
+} */
+#body-left-slide::-webkit-scrollbar-thumb {
+    background: black; 
+}
+h2{
+    color: rgb(195, 112, 3);
+}
+#left-slide-heading{
+    text-align: center;
+    margin-bottom: -1px;
+    color: whitesmoke;
+    font-family: 'Silkscreen', cursive;
+    font-size: 30px;
+    font-weight: 900;
+    font-style: italic;
+
+}
+/* #left-slide-content{
+
+
+} */
+div.coursebox{
+    width: 300px;
+    height: 360px;
+    background-color: white;
+    margin-top: 7%;
+    margin-left: 8.5%;
+    padding-top: 10px;
+    float:left;
+    border: 3px solid gray; 
+    text-align: center;
+    font-size: smaller;
+    font-weight: 600;
+    line-height: 1.2;
+    color: rgb(94, 19, 165);
+    border-radius: 25px;
+}
+.opacity{
+    opacity: .8;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.coursebox:hover{
+    background-color:whitesmoke;
+    text-decoration: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 5px solid black; 
+}
+.course-description{
+    color: black;
+    font-size: 10px;  
+    opacity: .9;    
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.italic{
+    font-style: italic;
+}
+.course-details{
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.coursepara{
+    margin-top: 8px;
+    color: #454545;
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+.course-details-heading{
+    color: rgb(94, 19, 165);
+    font-weight: 750;
+    font-size: 13px;
+    margin-right: 1%;
+}
+th{
+    font-size: medium;
+    font-weight: 600;
+}
+.col1{
+    font-size: 11px;
+    font-weight: 600;
+    width: 110px;
+}
+td{
+    color: black;
+    padding-left: 0%;
+    font-size: 11px;
+    font-weight: 550;
+}
+
+#body-center-slide{
+    background-image: url(img/bg-img-6.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 715px;
+    overflow: scroll;
+    overflow-x:hidden ;
+    float: left;
+}
+#body-center-slide::-webkit-scrollbar{
+    width: 10px;
+}
+/* #body-center-slide::-webkit-scrollbar-track {
+    background: whitesmoke; 
+    opacity: .5;
+} */
+#body-center-slide::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+}
+#body-center-slide::-webkit-scrollbar-thumb {
+    background: rgb(11, 84, 108); 
+}
+
+#subheading{
+    text-align: center;
+    font-size: large;
+    font-weight: 800;
+    color:gold;    
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+.imgbox{
+    width: 80%;
+    height: 500px;
+    margin: 1%;
+    margin-left: 11%;
+    float: left;
+    cursor: pointer;
+}
+.imgbox img{
+    border-radius: 20px;
+}
+#body-right-slide{
+    background-image: url(img/bgc-3.png);  
+    background-repeat: no-repeat;
+    background-size: cover;    
+    width: 25%;
+    height: 715px;
+    overflow: scroll;
+    overflow-x:hidden ;
+    float: left;
+}
+#body-right-slide::-webkit-scrollbar{
+    width: 10px;
+}
+/* #body-right-slide::-webkit-scrollbar-track{
+    background: whitesmoke; 
+    opacity: .5;
+} */
+#body-right-slide::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+}
+#body-right-slide::-webkit-scrollbar-thumb{
+    background: rgb(5, 5, 64); 
+}
+.staff-box{
+    width: 270px;
+    height: 340px;
+    background-color: white;
+    text-align: center;
+    font-size: small;
+    font-weight: 900;
+    line-height: 1.1;
+    color: rgb(94, 19, 165);
+    padding-left: 10px;
+    
+}
+.open{
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 10%;
+    margin-left: 12%;
+}
+.open:hover{
+    border: 3px solid blueviolet;
+}
+div .staff-box .staff-image{
+    width: 150px;
+    height: 150px;
+    background-color: #ffdf00;
+    margin-top: 15px;
+    margin-left: 50px;
+    border-radius: 100%;
+    border: 1px solid #ffdf00;
+}
+div .staff-box .staff-details{
+    width: 100%;
+    height: 100px;
+    background-color: whitesmoke;
+    text-align: left;
+}
+
+#above-footer{
+    padding-top: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.mainheading-above-footer{
+    text-align: center;
+    color: blueviolet;
+    font-weight: 900;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.subheading-above-footer{
+    text-align: left;
+    font-weight: 700;
+    font-size: 18px;
+}
+.para-above-footer{
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 2;
+}
+.point-para-above-footer{
+    text-align: justify;
+    line-height: 3;
+}
+
+#footer{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding-top: 100px;
+    position: sticky;
+    
+
+}
+.footer-links{
+    text-decoration:none;
+    color: grey;
+    padding: 10px;
+    font-size: small;
+    font-weight: 500;
+}
+.footer-developed{
+    margin: 0%;
+    text-decoration:none;
+    color: grey;
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+}
+.margin-bottom{
+    margin-bottom: 10%;
+}

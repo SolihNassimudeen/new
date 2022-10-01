@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var num=25,ln="<hr>"
+        if(num%2==0)
+        {
+            document.write(num ," is even number",ln)
+        }
+        else
+        {
+            document.write(num ," is odd number",ln)
+        }
+    </script>
+
+    <script>
+        var year=2022
+        if(year%4==0)
+        {
+            document.write(year ," is leap year",ln)
+        }
+        else
+        {
+            document.write(year ," is not leap year",ln)
+        }
+    </script>
+
+    <script>
+        var month="May"
+        if(month=="Januvary"||"March"||"May"||"July"||"August"||"October"||"December")
+        {
+            document.write("no of days in "+month ," is 31",ln)
+        }
+        else if(month=="April"||"June"||"September"||"November")
+        {
+            document.write("no of days in"+month ," is 30",ln)
+        }
+        else if(month=="Februvary")
+        {
+            document.write("no of days in"+month ," is 29, if it is a leap year",ln)
+            document.write("no of days in"+month ," is 28, if it is not a leap year",ln)
+        }
+    </script>
+
+<script>
+    var side1=10,side2=10,side3=10
+
+    if(side1==side2&&side1==side3)
+    {
+        document.write("triangle is Equilateral",ln)
+    }
+    else if(side1==side2||side2==side3||side1==side3)
+    {
+        document.write("triangle is issoscles",ln)
+    }
+    else
+    {
+        document.write("triangle is scalene",ln)
+    }
+</script>
+
+<script>
+    var num1=2,num2=3,n=4
+    if(n==1){
+        document.write("sum is ",num1+num2,ln)
+    }
+    else if(n==2){
+        document.write("diff is ",num1-num2,ln)
+    }
+    else if(n==3){
+        document.write("multiply is ",num1*num2,ln)
+    }
+    else if(n==4){
+        document.write("division is ",num1/num2,ln)
+    }
+    else if(n==5){
+        document.write("modulus is ",num1%num2,ln)
+    }
+    else if(n==6){
+        document.write("increment is ",++num1,ln)
+        document.write("increment is ",++num2,ln)
+    }
+    else if(n==7){
+        document.write("decrement is ",--num1,ln)
+        document.write("decrement is ",--num2,ln)
+    }
+    else{
+        document.write("invaid option",ln)
+    }
+
+</script>
+</body>
+</html>

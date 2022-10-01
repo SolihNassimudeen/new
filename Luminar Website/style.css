@@ -1,0 +1,143 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+body::-webkit-scrollbar{
+    width: 0px;
+}
+#outerbox{
+    width:100%;
+    height: 713px;
+    background-color: white;
+}
+#headerbox{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    /* position: sticky;
+    top: 0;
+    left: 0; */
+}
+#leftheader{
+    width: 50%;
+    height: 100px;
+    background-color: blueviolet;
+    float: left;
+}
+#logo{
+    width: 13%;
+    height: 100px;
+    float:left;
+    background-color: blue;
+}
+#nameplace{
+    width: 80%;
+    height: 70px;
+    float:left;
+    background-color: blueviolet;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+#luminar{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+}
+#place{
+    font-size: medium;
+    color: lightgray;
+    margin-left: 15%;
+}
+#rightheader{
+    width: 35%;
+    height: 100px;
+    background-color: blueviolet;
+    float: left;
+    margin-left: 15%;
+}
+.rightheaderboxsize{
+    margin-top: 60px;
+    width: 15% ;
+    height: 40px;
+    background-color: blueviolet;
+    float: left;
+    margin-left: 1%;
+    color: white;
+    border:  none;
+    text-align: center;
+    font-weight: 500;
+}
+.rightheaderboxsize:hover{
+    border: 1px solid whitesmoke;
+    font-size: 13px;
+}
+#loginbox{
+    text-align: left;
+    font-weight: 500;
+}
+#loginbox:hover{
+    text-align: center;
+    font-size: 13px;
+}
+#profilebtn{
+    width: 45px ;
+    height: 40px;
+    border-radius: 100%;
+    border: none;
+    margin-top: 55px;
+    background-color: blueviolet;
+    float: left;
+    margin-left: 1%;
+    text-align: center;
+}
+#btnclicked{
+    font-size: medium;
+    border: none;
+    font-weight: 700;
+    width: 90px;
+}
+.headerlinks{
+    text-decoration: none;
+    color: white;
+}
+#headingbox{
+    padding-left: 6.4%;
+    width: 93.6%;
+    height: 30px;
+    background-color: whitesmoke;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.headingboxsize{
+    width: 11%;
+    height: 30px;
+    background-color:whitesmoke;
+    border: none;
+    font-size: medium;
+    color: blueviolet;
+    font-weight: 600;
+}
+.headingboxsize:hover{
+    font-size: large;
+}
+.nxtpage{
+    text-decoration: none;
+    color: blueviolet;
+}
+#body{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+#body::-webkit-scrollbar{
+    width: 10px;
+}
+#body::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+}
+#body::-webkit-scrollbar-thumb:hover {
+    background: blueviolet; 
+}
+

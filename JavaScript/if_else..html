@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        var age=20
+        if(age>=18)
+        {
+            document.write("age>=18, Qualifies for driving <hr>")
+        }
+    
+        var age=16
+        if(age>=18)
+        {
+            document.write("age>=18, Qualifies for driving <hr>")
+        }
+        else
+        {
+            document.write("age<18, Minor, not qualified for driving <hr>")
+        }
+    </script>
+
+    <script>
+        var a=10,b=5
+        if(a>b)
+        {
+            document.write("a is largest "+a+"<hr>")
+        }
+        else
+        {
+            document.write("b is largest "+b+"<hr>" )        
+        }
+    </script>
+    <input type="number" placeholder="Enter the day(1-7)" id="inp">
+    <button id="btn" onclick="day()">ok</button>
+    <h1 id="result"></h1>
+    <script>
+        function day(){
+            var n=document.getElementById("inp").value
+            if(n==1)
+            {
+                document.getElementById("result").innerHTML="Sunday"
+            }
+            else if(n==2)
+            {
+                document.getElementById("result").innerHTML="Monday"
+            }
+            else if(n==3)
+            {
+                document.getElementById("result").innerHTML="Tuesday"
+            }
+            else if(n==4)
+            {
+                document.getElementById("result").innerHTML="Wednesday"
+            }
+            else if(n==5)
+            {
+                document.getElementById("result").innerHTML="Thursday"
+            }
+            else if(n==6)
+            {
+                document.getElementById("result").innerHTML="Friday"
+            }
+            else if(n==7)
+            {
+                document.getElementById("result").innerHTML="Saturday"
+            }
+            else
+            {
+                document.getElementById("result").innerHTML="invalid option"
+            }
+        }
+    </script>
+    <hr>
+    <script>
+        
+    </script>
+</body>
+</html>

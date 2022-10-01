@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        key=0
+        persons={
+            name:"Abdu",
+            age:22,
+            course:"mearn stack"
+        }
+        for(key in persons)
+        {
+            document.write(key,"<br/>")
+        }
+        document.write("<br/> <br/>")
+
+        for(key in persons)
+        {
+            document.write(persons[key],"<br/>")
+        }
+        document.write("<br/> <br/>")
+
+        for(key in persons)
+        {
+            document.write(key,"=",persons[key],"<br/>")
+        }
+        document.write("<br/> <br/>")
+
+        document.write(persons[1].key,"<br/>")
+
+    </script>
+</body>
+</html>

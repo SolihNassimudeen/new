@@ -1,0 +1,147 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body #outerbox{
+    width: 100%;
+    height: 715px;
+    background-color: rgba(var(--i1d,38,38,38),1);
+    display: inline;
+    justify-content: center;
+
+}
+body #outerbox #topbox{
+    width: 17%;
+    height: 390px;
+    margin-top: 37px;
+    margin-left: 37.5%;
+    background-color: white;
+    padding-left: 2.5%;
+    padding-right: 3.5%;
+    border: 1PX solid lightgray;
+    float: none;
+}
+body #outerbox #topbox .instagram{
+    margin-top: 8%;
+    margin-left: 13%;
+    margin-bottom: 10%;
+}
+body #outerbox #topbox .input1{
+    width: 100%;
+    height:33px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    border: 1px solid lightgrey;
+    background-color: whitesmoke;
+    opacity: .7;
+    padding-left: 10px;
+    font-size: 12px;
+}
+body #outerbox #topbox .logbtn{
+    width: 106%;
+    height:33px;
+    margin-top: 10px;
+    background-color: rgba(var(--d69,0,149,246),1);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+}
+body #outerbox #topbox #subdiv .orline{
+    width: 41%;
+    float: left;
+}
+body #outerbox #topbox #subdiv p{
+    float: left;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: small;
+    font-weight: 550;
+}
+body #outerbox #topbox #subdiv{
+    width: 106%;
+    height: 30px;
+    opacity: .5;
+}
+body #outerbox #topbox a{
+    text-decoration: none;
+    color: #385185;
+    margin-left: 20%;
+}
+body #outerbox #topbox a span{
+    
+    margin-left:1%; 
+    font-weight: 550;
+    font-size: 13px;      
+}
+body #outerbox #topbox #forgetlink{
+    margin-left:34%; 
+    font-weight: 350;
+    font-size: 11px;
+}
+body #outerbox #midbox1{
+    width: 17%;
+    height: 60px;
+    margin-left: 37.5%;
+    background-color: white;
+    padding-left: 2.5%;
+    padding-right: 3.5%;
+    border: 1PX solid lightgray;
+    float: none;
+    margin-top: 10px;
+}
+body #outerbox #midbox1 #signup{
+    text-decoration: none;
+    color: rgba(var(--d69,0,149,246),1);
+}
+body #outerbox #midbox1 #para1{
+    margin-left: 10%;
+    margin-top: 9%;
+    font-size: 14px;
+    color: #454545;
+}
+body #outerbox #midbox2{
+    width: 17%;
+    height: 60px;
+    margin-left: 37.5%;
+    padding-left: 2.5%;
+    padding-right: 3.5%;
+}
+body #outerbox #midbox2 #para2{
+    margin-left: 38%;
+    margin-top: 8%;
+    font-size: 14px;
+    color: #454545;
+}
+body #outerbox #lastbox{
+    width: 20%;
+    height: 60px;
+    margin-left: 37.5%;
+    padding-left: 2.5%;
+    padding-right: 3.5%;
+    margin-top: -1.5%;
+}
+body #outerbox #lastbox #appbtn{
+    margin-left: 10px;
+    width: 40%;
+    float: left;
+}
+body #outerbox #footer{
+    margin-left: 23%;
+    height: 100px;
+}
+body #outerbox #footer .footerlinks{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    margin-left: 10px;
+}
+body #outerbox #footer #langselect{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+    border: none;
+    margin-left: 24%;
+}

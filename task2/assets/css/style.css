@@ -1,0 +1,22 @@
+body{
+    margin: 0%;
+    background-color: rgb(216, 181, 249);
+    display: flex;
+    justify-content: center;
+}
+#outerbox{
+    /* margin-left: 43%; */
+    margin-top: 12%;
+    width: 10%;
+}
+input{
+    margin: 10px;
+    width: 150px;
+    padding-left: 10px;
+    height: 20px;
+
+}
+.btn{
+    width: 166px;
+    height: 25px;
+}

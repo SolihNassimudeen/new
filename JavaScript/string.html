@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="padding-left: 50px;">
+    <script>
+        ln="<br/>"
+        name1 = "Hello world"
+        name2 = "Hello \"for double qoutes\" world" //for double quotes \" is used
+        name3 = "\"Hello world\""
+        name4 = "for new line \n \\n"
+        document.write(name1,ln)
+        document.write(name1.length,ln,ln)
+        document.write(name2,ln)
+        document.write(name2.length,ln,ln)
+        document.write(name3,ln)
+        document.write(name3.length,ln,ln)
+        document.write(name4,ln)
+        document.write(name4.length,ln,ln)
+    </script>
+    <hr>
+    <script>
+        name =String(123)
+        document.write(name,ln)
+        name =String("abc")
+        document.write(name,ln)
+        name =String("abc123")
+        document.write(name,ln)
+        name =String("123abc")
+        document.write(name,ln)
+    </script>
+    <hr>
+    <script> //for address matching === is used
+        myself="my name is Ashfaque"
+        name=myself
+        if(name===myself)
+        {
+            document.write(true)
+        }
+        else        
+        {
+            document.write(false)
+        }
+        document.write(ln)
+
+        myself="my name is Ashfaque"
+        name="my name is Ashfaque"
+        if(name===myself)
+        {
+            document.write(true)
+        }
+        else        
+        {
+            document.write(false)
+        }
+        document.write(ln)
+    </script>
+    <hr>
+    <script>  //for cutting words or letters in string
+        str="Hello world"
+        document.write(str,ln)
+        document.write(str.length,ln)
+        document.write(str.slice(0,0),ln)
+        document.write(str.slice(0,1),ln)
+        document.write(str.slice(0,2),ln)
+        document.write(str.slice(0,3),ln)
+        document.write(str.slice(0,4),ln)
+        document.write(str.slice(0,5),ln)
+        document.write(str.slice(0,6),ln)
+        document.write(str.slice(0,7),ln)
+        document.write(str.slice(0,8),ln)
+        document.write(str.slice(0,9),ln)
+        document.write(str.slice(0,10),ln)
+        document.write(str.slice(0,11),ln,ln)
+</script>
+<hr>
+<script>
+        str="apple, banana, orange"
+        document.write(str,ln)
+        document.write(str.length,ln)
+        document.write(str.slice(0,5),ln)
+        document.write(str.slice(7,13),ln)
+        document.write(str.slice(15,21),ln)
+        document.write(str.slice(15),ln,ln)
+</script>
+<hr>
+<script>
+        str="Hello world"
+        document.write(str,ln)
+        document.write(str.length,ln)
+        document.write(str.slice(-1),ln)
+        document.write(str.slice(-2),ln)
+        document.write(str.slice(-3),ln)
+        document.write(str.slice(-4),ln)
+        document.write(str.slice(-5),ln)
+        document.write(str.slice(-6),ln)
+        document.write(str.slice(-7),ln)
+        document.write(str.slice(-8),ln)
+        document.write(str.slice(-9),ln)
+        document.write(str.slice(-10),ln)
+        document.write(str.slice(-11),ln,ln)
+
+        document.write("next set",ln)
+
+        document.write(str.slice(0),ln)
+        document.write(str.slice(1),ln)
+        document.write(str.slice(2),ln)
+        document.write(str.slice(3),ln)
+        document.write(str.slice(4),ln)
+        document.write(str.slice(5),ln)
+        document.write(str.slice(6),ln)
+        document.write(str.slice(7),ln)
+        document.write(str.slice(8),ln)
+        document.write(str.slice(9),ln)
+        document.write(str.slice(10),ln,ln)
+
+        document.write("next set",ln)
+
+
+        document.write(str.slice(-9,10),ln)
+        document.write(str.slice(-6,11),ln)
+        document.write(str.slice(-11,5),ln,ln)
+
+</script>
+<hr>
+<script>
+// no negative in substring()
+
+        document.write(str.substring(0,5),ln) 
+        document.write(str.substring(5),ln)
+</script>
+<hr>
+<script>
+// no positive in substr()
+        document.write(str.substr(-6,11),ln)
+        document.write(str.substr(-11,5),ln)
+    </script>
+    <hr>
+    <script> //for replacing words
+        str="apple, banana, orange"
+        name=str.replace("apple","strawberry")
+        document.write(name)
+    </script>
+    <hr>
+    <script>  //for capitalise and none
+        str="apple, banana, orange"
+        document.write(str.toUpperCase(),ln)
+        document.write(str.toLowerCase(),ln)
+    </script>
+    <hr>
+    <script>// number to string
+        num=1234
+        document.write(num.toString(),ln)
+    </script>
+    <hr>
+    <script> //concatination
+        name="A"
+        name1="bdul"
+        name2="Ashfaque"
+        name3="M"
+        fullName=name.concat(name1," ",name2," ",name3)
+        document.write(fullName)
+        document.write(name+name1+" "+name2+" "+name3,ln)
+    </script>
+    <hr>
+    <script> //for removing whitespace[" hello world "] trim() is used
+        document.write("without trim",ln)
+        fullName=" Abdul Ashfaque M "
+        document.write(fullName)
+        document.write("hi",ln)
+
+        fullName=" Abdul Ashfaque M "
+        document.write("with trim",ln)
+        document.write(fullName.trim())
+        document.write("hi",ln)
+    </script>
+    <hr>
+    <script>//for replacing the letter or space with comma ","
+        str="apple banana orange"
+        document.write(str.split(" "),ln)
+        document.write(str.split("a"),ln)
+        document.write(str.split("p"),ln)
+        document.write(str.split("n"),ln)
+    </script>
+    <hr>
+    <script> 
+    //for printing the character at that position charAt(position) is used
+    //for printing the character-Asci code at that position charCodeAt(position) is used
+        str="apple banana orange"
+        document.write(str.charAt(4),ln)
+        document.write(str.charCodeAt(4),ln)
+        document.write(str.charAt(8),ln)
+        document.write(str.charCodeAt(8),ln)
+        document.write(str.charAt(13),ln)
+        document.write(str.charCodeAt(13),ln)
+    </script>
+    <hr>
+    <script>
+        array1=[1,2,3,4,5,6]
+        ar1=array1.slice(1,4) //it means position 1 to (4-1) is in ar1
+        document.write(ar1,ln)
+        document.write(array1,ln) 
+//                                  whenever "dot function" [variable_name.function()/array_name.function()] is used, 
+//                                  that array or variable will change directly and same result as the result after the function.
+    </script>
+    <hr>
+    <script>
+        array1=[11,8,9,0,5,6]
+        ar1=array1.sort() //it means sorting (in ascending order) according to first character because it takes the input as string.
+        document.write(ar1,ln)
+        document.write(array1,ln)
+//                                  whenever "dot function" [variable_name.function()/array_name.function()] is used, 
+//                                  that array or variable will change directly and same result as the result after the function.
+    </script>
+    <hr>
+    <script>
+        array1=[11,8,9,0,5,6]
+        ar1=array1.reverse() //it means reverse the order of array not in any ascending or descending.
+        document.write(ar1,ln)
+        document.write(array1,ln)
+//                                  whenever "dot function" [variable_name.function()/array_name.function()] is used, 
+//                                  that array or variable will change directly and same result as the result after the function.
+    </script>
+    <hr>
+    <script>
+        array1=[11,8,9,0,5,6]
+        document.write(array1,ln)
+        document.write(array1.reverse(),ln)
+        document.write(array1,ln) 
+        document.write(array1.sort(),ln)
+        document.write(array1,ln)
+        document.write(array1.reverse(),ln)
+        document.write(array1,ln)
+//                                  whenever "dot function" [variable_name.function()/array_name.function()] is used, 
+//                                  that array or variable will change directly and same result as the result after the function.
+    </script>
+    <hr>
+    <script>//for creating boolean object,To convert boolean to string
+    // whenever boolean function has values inside parenthesis then it is true else false
+        var text =new Boolean(true) // true
+        var text =new Boolean(false) //false
+        var text =new Boolean()  //false
+        var text =new Boolean("")  //false
+        var text =new Boolean(" ")  // true
+        var text =new Boolean("dhjgfdhh")  // true
+        var text =new Boolean(1233)  // true
+        document.write("text.toString() is:",text.toString())
+    </script>
+    <hr>
+</body>
+</html>

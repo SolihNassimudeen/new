@@ -1,0 +1,162 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: visible;
+    background-color: white;
+}
+body::-webkit-scrollbar{
+    width: 0px;
+}
+*{
+    margin: 0%;
+}
+#headerbox{
+    position: static;
+}
+#headingbox{
+    position: static;
+}
+#scrollmargin{
+    padding-left: 9%;
+    padding-right: 8%;
+    background-color:rgb(194, 119, 20);
+}
+#body{
+    width: auto;
+    height: 578px;
+    overflow: scroll;
+    overflow-y: hidden;
+    background-color:rgb(194, 119, 20);
+    
+
+}
+#body::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0,0.1);
+    border-radius: 20px;
+}
+#body::-webkit-scrollbar-track:hover{
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0,0.5);
+}
+#body::-webkit-scrollbar{
+    width: 5px;
+}
+#body::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+}
+#body::-webkit-scrollbar-thumb {
+    background: black; 
+}
+#body::-webkit-scrollbar-thumb:hover {
+    background: black; 
+}
+#courses{
+    background-color: white;
+    font-size: large;
+}
+#content{
+    width: 298%;
+    height: 500px;
+}
+div.coursebox{
+    width: 380px;
+    height: 500px;
+    background-color: white;
+    margin: 20px;
+    float:left;
+    border: 3px solid gray; 
+    text-align: center;
+    font-size: large;
+    font-weight: 900;
+    line-height: 1.5;
+    color: rgb(94, 19, 165);
+    border-radius: 35px;
+}
+div.coursebox img{
+    margin-top: 20px;
+    position: relative;
+}
+.opacity{
+    opacity: .8;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+.coursebox:hover{
+    background-color:whitesmoke;
+    margin: 10px;
+    padding: 5px;
+    text-decoration: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 5px solid black; 
+}
+.course-description{
+    color: black;
+    font-size: small;  
+    opacity: .9;    
+    text-align: justify;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.italic{
+    font-style: italic;
+}
+.course-details{
+    text-align: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+.coursepara{
+    margin-top: 8px;
+    color: #454545;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 2%;
+}
+.course-details-heading{
+    color: rgb(94, 19, 165);
+    font-weight: 750;
+    font-size: 13px;
+    margin-right: 1%;
+}
+th{
+    font-size: medium;
+    font-weight: 600;
+}
+.col1{
+    font-size: small;
+    font-weight: 600;
+    width: 110px;
+}
+td{
+    color: black;
+    padding-left: 0%;
+    font-size: 12px;
+    font-weight: 600;
+}
+#footer{
+    margin-top: 15px;
+    width: 100%;
+    height: 70px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+.footer-links{
+    text-decoration:none;
+    color: grey;
+    padding: 10px;
+    font-size: small;
+    font-weight: 500;
+}
+.footer-developed{
+    margin: 0%;
+    text-decoration:none;
+    color: grey;
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+    font-style: italic;
+}

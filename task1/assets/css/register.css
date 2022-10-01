@@ -1,0 +1,50 @@
+body{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body #mainbox{
+    width: 100%;
+    height: 715px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body #mainbox #registerbox{
+    width:28%;
+    height: 450px;
+    background-color: lightgray;
+    padding-left: 40px;
+    padding-top: 30px;
+    border-radius: 15px;
+}   
+body #mainbox #registerbox .input1{
+    width: 80%;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+body #mainbox #registerbox .registerbtn{
+    width: 87.5%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: 1px solid grey;
+    font-weight: 400;
+    font-size: large;
+}
+body #mainbox #registerbox p{
+    font-size: 17px;
+    margin-left: 77px;
+    margin-top: 28px;
+}
+body #mainbox #registerbox a{
+text-decoration: none;
+color: blue;
+word-spacing: 1px;
+margin-left: 2px;
+font-size: 14.5px;
+}

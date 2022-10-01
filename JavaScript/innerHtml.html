@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>innerHtml</title>
+</head>
+<body>
+    <p>hello</p>
+    <p id="demo1">hiiiiiiiiiiiii</p>
+    <p class="demo2">hey..............</p>
+<h5>what a day</h5>
+    <script>
+        document.getElementById("demo1").innerHTML="Hello"
+        document.getElementsByClassName("demo2").innerHTML="Hello world"
+        // will not work because it is class.
+        document.getElementsByTagName("h5").innerHTML="wonderful"
+        // only works in funtion
+    </script>
+</body>
+</html>
